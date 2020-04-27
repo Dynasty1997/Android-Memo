@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 设置字体大小 theme -->
+    <style name="Theme_Small">
+        <item name="fontsize_1">15sp</item>
+        <item name="fontsize_2">10sp</item>
+        <item name="fontsize_3">8sp</item>
+    </style>
+    <style name="Theme_Medium">
+        <item name="fontsize_1">25sp</item>
+        <item name="fontsize_2">20sp</item>
+        <item name="fontsize_3">15sp</item>
+    </style>
+    <style name="Theme_Large">
+        <item name="fontsize_1">45sp</item>
+        <item name="fontsize_2">30sp</item>
+        <item name="fontsize_3">25sp</item>
+    </style>
+
+    <!-- 为相应的控件设置style -->
+    <style name="title_text">
+        <item name="android:textSize">?attr/fontsize_1</item>
+    </style>
+    <style name="subtitle_text">
+        <item name="android:textSize">?attr/fontsize_2</item>
+    </style>
+    <style name="article_text">
+        <item name="android:textSize">?attr/fontsize_3</item>
+    </style>
+
+</resources>

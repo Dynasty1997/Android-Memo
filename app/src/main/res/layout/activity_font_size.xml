@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一行测试用字1"/>
+
+    <TextView
+        style="@style/subtitle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一行测试用字2"/>
+
+    <TextView
+    style="@style/article_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="这是一行测试用字3"/>
+
+    <Button
+        android:text="小"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/small"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="中"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medium"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="大"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/large"
+        android:textSize="20sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/colorPrimary"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/about"
+            android:src="@drawable/ic_action_overflow"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@null" />
+
+            <TextView
+                android:id="@+id/app_title"
+                android:layout_width="273dp"
+                android:gravity="center"
+                android:text="烂笔头"
+                android:background="@color/colorPrimary"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_light"
+                android:layout_height="match_parent"
+                android:layout_weight="1.09" />
+
+        <ImageButton
+            android:id="@+id/write_btn"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/note_num"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingTop="2dp"
+            android:textSize="18sp"
+            android:textColor="#333"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
